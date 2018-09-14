@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
 import Header from '../components/header'
+import favicon from './favicon.ico'
 import './index.css'
 
 const Layout = ({ children, data }) => (
@@ -13,7 +14,9 @@ const Layout = ({ children, data }) => (
         { name: 'description', content: 'Scouras Consulting - Specializing in Imagine IFP App Development' },
         { name: 'keywords', content: 'Scouras, Financial Consulting, Financial Apps' },
       ]}
-    />
+    >
+    <link rel='icon' type="icon/png" sizes='16x16' href={favicon}/>
+    </Helmet>
     <Header siteTitle={data.site.siteMetadata.title} />
     <div
       style={{
