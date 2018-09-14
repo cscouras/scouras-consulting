@@ -12,7 +12,7 @@ const IndexPage = () => (
       <p>
         Check out our <Link to="/apps/"> IFP Apps </Link>!
       </p>
-      <p>If you are a user of Imagine, you can obtain our apps at <Link to="https://marketplace.derivatives.com/collections/vendors?q=Scouras+Consulting">Imagine&#39;s IFP app marketplace </Link>.
+      <p>If you are a user of Imagine, you can obtain our apps at <a  href="https://marketplace.derivatives.com/collections/vendors?q=Scouras+Consulting">Imagine&#39;s IFP app marketplace </a>.
         </p>
     </Card>
 
