@@ -1,0 +1,43 @@
+@value colors: "../styles/colors.css";
+@value primary, secondary, bg-color from colors;
+
+
+.header {
+    background: primary;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
+.headerContent {
+    margin: 0 auto;
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+}
+
+.logo {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.headerLink {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 912px){
+    .logo {
+        font-size: 1.75rem;
+    }
+}
+
+@media (max-width: 880px) {
+    .headerContent {
+        justify-content: space-around;
+    }
+}

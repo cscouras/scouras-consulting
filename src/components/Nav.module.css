@@ -1,0 +1,70 @@
+@value colors: "../styles/colors.css";
+@value primary, secondary, bg-color from colors;
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.navbar a {
+    font-size: 1.2rem;
+    color: white;
+    text-shadow: 1px 1px 2px primary;
+    display: inline-block;
+    padding: .75rem 1rem;
+    transition: background 100ms ease-in;
+}
+
+.navbar a:hover {
+    background: secondary;
+}
+
+.hamburger {
+    display: none;
+    position: relative;
+    padding: 1rem;
+    justify-content: flex-end;
+}
+
+.hamburger span,
+.hamburger span::before,
+.hamburger span::after {
+    display: block;
+    background: white;
+    height: 2px;
+    width: 1.5rem;
+    position: relative;
+    border-radius: 10px;
+}
+
+.hamburger span::before,
+.hamburger span::after {
+    content: '';
+    position: absolute;
+}
+
+.hamburger span::before {
+    bottom: 7px;
+}
+
+.hamburger span::after {
+    top: 7px;
+}
+
+@media (max-width: 912px){
+    .navbar a {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 880px){
+    .navbar a {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+}

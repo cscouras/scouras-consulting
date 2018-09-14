@@ -1,0 +1,40 @@
+.container {
+    margin: 0 auto;
+    width: 60%;
+    min-width: 320px;
+    height: 25vh;
+    min-height: 220px;
+    background: papayawhip;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.image {
+    background: pink;
+}
+
+.children {
+    width: 50%;
+}
+
+.children p {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+
+.image img {
+    display: block;
+    margin: 0px;
+    max-width: 200px;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        font-size: .75em;
+        width: 100%;
+    }
+}
