@@ -7,7 +7,7 @@ class Nav extends React.Component {
     render() {
         return (
             <nav className={styles.navbar}>
-                <Link to="apps">IFP Apps</Link>
+                <Link to="/apps/">IFP Apps</Link>
                 <Link to="/mobile/">Android App</Link>
                 <Link to="/about/">About</Link>
                 <Link to="/contact/">Contact</Link>

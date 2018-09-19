@@ -4,7 +4,9 @@
     "strict": 0,
     "no-undef": "off",
     "react/display-name": "off",
-    "no-console": "off"
+    "no-console": "off",
+    "no-unused-vars": "off",
+    "react/prop-types": 0
   },
   "extends": [
     "eslint:recommended",
