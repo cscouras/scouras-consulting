@@ -1,0 +1,35 @@
+ul {
+    margin-left: 4.5rem;
+    padding-bottom: 1.5rem;
+}
+.mainContent {
+    margin: 120px auto 0;
+    max-width: 960px;
+    padding: 0 1rem;
+}
+
+h3 > a, p > a {
+    color: hsla(204,12.449720506%,0%,0.77);
+    background: rgba(187,239,253,0.3);
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+h3 > a:hover, p > a:hover{
+    background: rgba(187,239,253,0.9);
+}
+
+
+a:visited {
+   color: black;
+}
+
+.gatsby-resp-image-link {
+    background-color: none;
+    display: none;
+}
+
+td:first-child {
+    width: 25%;
+}

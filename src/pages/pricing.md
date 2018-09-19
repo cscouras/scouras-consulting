@@ -13,13 +13,13 @@ Scouras Consulting is offering a growing list of apps, available at [Imagine's I
 
 - **MVB INTEGRATOR, FOR ENHANCED MULTIVARIATE BETA FUNCTIONALITY**
 
-    MVB Integrator is available on a subscription basis. We offer a <span style="color:red;">**free 30 day trial**</span>. 
+    MVB Integrator is available on a subscription basis. We offer a <span style="color:red;">**free 30 day trial**</span>.
 
     Cost is $100 per user per month. Subscription includes support and unlimited upgrades. Ask about our volume and pre-pay discounts.
 
     [MVB Integrator page](/multivariate/)
 
-----
+    _____
 
 - **TECHEXTEND, DISPLAY COMMON TECHNICAL ANALYSIS MEASURES**
 

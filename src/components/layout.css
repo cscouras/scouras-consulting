@@ -1,16 +1,7 @@
-@value colors: "../styles/colors.css";
-@value scouras-gray, scouras-red from colors;
-
-*, *::before, *::after {
-  box-sizing: border-box;
+.gatsby-resp-image-link {
+  background-color: none;
+  display: none;
 }
-
-
-a {
-  color: scouras-red;
-  text-decoration: none;
-}
-
 
 /* html {
   font-family: sans-serif;

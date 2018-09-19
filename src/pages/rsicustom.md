@@ -21,11 +21,11 @@ For information on our pricing and our support policies, please visit our [prici
 
 Once the RSI Custom app is obtained from [Imagine's IFP Marketplace](http://marketplace.derivatives.com/collections/vendors?q=Scouras+Consulting "Imagine's IFP Marketplace"), set up your Custom Columns as shown below. If you're using a 14 day RSI, there is no need for parameters:
 
-![RSI 14 Day Configuration](../assets/rsi_14.png)
+![RSI 14 Day Configuration](../images/rsi_14.png)
 
 If you would like a different number of days, simply set the number of days as a parameter, as in this 21 day RSI sample:
 
-![RSI 21 Day Configuration](../assets/rsi_21.png)
+![RSI 21 Day Configuration](../images/rsi_21.png)
 
 **RSI Support**
 

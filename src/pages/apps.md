@@ -1,11 +1,9 @@
 ---
 title: "IFP Apps"
 ---
-![RSI Custom Logo](../assets/rsi_custom_logo.png)
-
 Scouras Consulting is offering a growing list of apps, available at [Imagine's IFP Marketplace](http://marketplace.derivatives.com/collections/vendors?q=Scouras+Consulting "Imagine's IFP Marketplace")
 
-### RSI CUSTOM, PROVIDES RELATIVE STRENGTH INDEX
+### [RSI CUSTOM, PROVIDES RELATIVE STRENGTH INDEX](/rsicustom/)
 
 Relative Strength Index (RSI) is a momentum oscillator that measures the speed and change of price movements. RSI oscillates between zero and 100.
 
@@ -15,13 +13,13 @@ With RSI Custom, you'll be able to:
 - Integrate RSI indicator to your Imagine reports and extracts
 - Eliminate time consuming, manual processes of gathering RSI from other sources
 
-<hr>
+___
 
-### MVB INTEGRATOR, FOR ENHANCED MULTIVARIATE BETA FUNCTIONALITY
+### [MVB INTEGRATOR, FOR ENHANCED MULTIVARIATE BETA FUNCTIONALITY](/multivariate/)
 
-MVB Integrator provides for easy integration of the ourput from the Multi-Factor Regression into your portfolio views.
+MVB Integrator provides for easy integration of the output from the Multi-Factor Regression into your portfolio views.
 
-With MVB Integrator, you'll be able to: 
+With MVB Integrator, you'll be able to:
 
 - Easily create ad-hoc multivariate beta factor scenarios to keep current with market conditions
 - Analyze the impact of including or removing beta factors on your real time portfolio valuations
@@ -29,7 +27,7 @@ With MVB Integrator, you'll be able to:
 
 ___
 
-### TECHEXTEND, INTEGRATE COMMON TECHNICAL ANALYSIS MEASURES
+### [TECHEXTEND, INTEGRATE COMMON TECHNICAL ANALYSIS MEASURES](/techextend/)
 
 The TechExtend app enables you to:
 
