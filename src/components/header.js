@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import styles from './header.module.css'
+import styles from '../styles/header.module.css'
 
 const ListLink = props => (
   <li className={styles.navItem}>
@@ -15,10 +15,10 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/"
           style={{
-            color: 'rgba(0,0,0,0.8)',
             textDecoration: 'none',
             background: 'none'
           }}
+          className={styles.logoLink}
         >
           {siteTitle}
         </Link>
@@ -30,6 +30,7 @@ const Header = ({ siteTitle }) => (
           <ListLink to="/mobile/">ImagineMobile</ListLink>
           <ListLink to="/about/">About</ListLink>
           <ListLink to="/contact/">Contact</ListLink>
+          <div className={styles.hamburger}><span></span></div>
         </ul>
     </div>
   </div>

@@ -1,15 +1,18 @@
+@value colors: '../styles/colors.module.css';
+@value scourasBlue, darkFont, lightFont from colors;
+
 ul {
     margin-left: 4.5rem;
     padding-bottom: 1.5rem;
 }
 .mainContent {
-    margin: 120px auto 0;
+    margin: 110px auto 0;
     max-width: 960px;
     padding: 0 1rem;
 }
 
 h3 > a, p > a {
-    color: hsla(204,12.449720506%,0%,0.77);
+    color: darkFont;
     background: rgba(187,239,253,0.3);
     text-decoration: none;
     display: inline-block;
@@ -22,7 +25,7 @@ h3 > a:hover, p > a:hover{
 
 
 a:visited {
-   color: black;
+   color: darkFont;
 }
 
 .gatsby-resp-image-link {
