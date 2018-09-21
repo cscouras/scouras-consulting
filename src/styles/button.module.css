@@ -15,3 +15,10 @@
 .buttonStyle:hover {
     transform: scale(1.06);
 }
+
+@media(max-width:460px){
+    .buttonStyle {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+}

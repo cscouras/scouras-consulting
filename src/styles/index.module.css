@@ -2,8 +2,8 @@
 @value scourasBlue, darkFont, lightFont from colors;
 
 .container {
-  margin-top: 90px;
-  background-image: url('https://raw.githubusercontent.com/cscouras/scouras-consulting/b7d4f0b7f948cd6ac0d43308e742405483fcc7a8/src/layouts/hero.jpg');
+  margin-top: 50px;
+  background-image: url('../images/hero.jpg');
   background-position: bottom right;
   background-size: cover;
   background-repeat: no-repeat;

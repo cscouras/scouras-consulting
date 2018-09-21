@@ -6,8 +6,10 @@ ul {
     padding-bottom: 1.5rem;
 }
 .mainContent {
-    margin: 110px auto 0;
-    max-width: 960px;
+    margin: 70px auto 0;
+    width: 100%;
+    max-width: 1280px;
+    min-width: 400;
     padding: 0 1rem;
 }
 
@@ -33,6 +35,12 @@ a:visited {
     display: none;
 }
 
+
+table {
+    margin: 0 auto;
+    width: 100%;
+    font-size: 1rem;
+}
 td:first-child {
-    width: 25%;
+    width: 15%;
 }
