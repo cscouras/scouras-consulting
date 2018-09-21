@@ -4,7 +4,7 @@
 .container {
   margin-top: 50px;
   background-image: url('../images/hero.jpg');
-  background-position: bottom right;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -39,4 +39,11 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+
+@media(max-width: 400px){
+    .container {
+        height: auto;
+    }
 }
