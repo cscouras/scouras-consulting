@@ -3,13 +3,14 @@
 
 h1,
 ul {
-  margin-top: 1rem;
+  margin: 0;
   padding: 0;
 }
 
 .container {
   display: flex;
   justify-content: center;
+  align-items: baseline;
   background: white;
   position: fixed;
   top: 0;
@@ -19,6 +20,7 @@ ul {
   z-index: 1;
   box-sizing: border-box;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+  padding:
 }
 
 .flex {
@@ -47,9 +49,12 @@ ul {
   display: flex;
   justify-content: space-around;
   list-style: none;
-  margin: 0.25rem 0 0 0;
   font-size: 1.25rem;
   padding: 0;
+  margin: 0;
+}
+
+.navItem {
   margin: 0;
 }
 
