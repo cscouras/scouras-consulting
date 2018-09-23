@@ -9,7 +9,7 @@ const MobileNav = props =>{
         <Link to="/apps/">IFP Apps</Link>
         <Link to="/mobile/">ImagineMobile</Link>
         <Link to="/about/">About</Link>
-        <Link to="/contact/">Contact</Link>
+        <Link to="/support/">Support</Link>
     </div>
     )
 }

@@ -25,7 +25,7 @@ class Nav extends React.Component {
           <ListLink to="/apps/">IFP Apps</ListLink>
           <ListLink to="/mobile/">ImagineMobile</ListLink>
           <ListLink to="/about/">About</ListLink>
-          <ListLink to="/contact/">Contact</ListLink>
+          <ListLink to="/support/">Support</ListLink>
           <div onClick={this.handleToggle} className={styles.hamburger}>
             <span />
           </div>
