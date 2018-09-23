@@ -1,11 +1,22 @@
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
 }
 body {
   margin: 0;
 }
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.siteContent {
+  display:flex;
+  flex-grow: 1;
+}
+
 article,
 aside,
 details,

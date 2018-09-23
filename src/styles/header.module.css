@@ -20,7 +20,7 @@
 .flex {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
   width: 100%;
   margin: 0 2rem;
   max-width: 1260px;
@@ -35,17 +35,20 @@
 .logoLink:visited {
   white-space: nowrap;
   color: darkFont;
-  transition: all 200ms ease-in;
+  transition: all 100ms ease-in;
 }
 
 .logoLink:hover {
   color: scourasBlue;
 }
 
-@media (max-width: 800px) {
+@media(max-width: 960px){
   .flex {
     align-items: center;
   }
+}
+
+@media (max-width: 800px) {
   .logoLink {
     font-size: 1.75rem;
   }

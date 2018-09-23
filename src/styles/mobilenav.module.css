@@ -33,3 +33,10 @@
     top: 71px;
     }
 }
+
+@media(max-height: 300px){
+    .mobilenav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
