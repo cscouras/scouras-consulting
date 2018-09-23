@@ -1,12 +1,6 @@
 @value colors: '../styles/colors.module.css';
 @value scourasBlue, darkFont from colors;
 
-h1,
-ul {
-  margin: 0;
-  padding: 0;
-}
-
 .container {
   display: flex;
   justify-content: center;
@@ -29,7 +23,11 @@ ul {
   width: 100%;
   margin: 0 2rem;
   max-width: 1260px;
-  /* flex-wrap: wrap; */
+}
+
+.headerH1 {
+  margin: 0;
+  font-weight:300;
 }
 
 .logoLink,
@@ -43,91 +41,11 @@ ul {
   color: scourasBlue;
 }
 
-.navLinks {
-  width: 60%;
-  display: flex;
-  justify-content: space-around;
-  list-style: none;
-  font-size: 1.25rem;
-  padding: 0;
-  margin: 0;
-}
-
-.navItem {
-  margin: 0;
-}
-
-.navItem > a {
-  color: darkFont;
-  background: none;
-  text-decoration: none;
-  transition: all 200ms ease-in-out;
-}
-
-.navItem > a:hover {
-  color: scourasBlue;
-  border-bottom: 0.25rem solid scourasBlue;
-}
-
-.navItem:visited {
-  color: darkFont;
-}
-
-.hamburger {
-  display: none;
-  position: relative;
-  padding: 1rem;
-  justify-content: flex-end;
-}
-
-.hamburger span,
-.hamburger span::before,
-.hamburger span::after {
-  display: block;
-  background: darkFont;
-  height: 2px;
-  width: 1.5rem;
-  position: relative;
-  border-radius: 10px;
-}
-
-.hamburger span::before,
-.hamburger span::after {
-  content: '';
-  position: absolute;
-}
-
-.hamburger span::before {
-  bottom: 7px;
-}
-
-.hamburger span::after {
-  top: 7px;
-}
-
-@media (max-width: 960px) {
-  .navLinks {
-    font-size: 1rem;
-    width: 50%;
-  }
-}
-
 @media (max-width: 800px) {
   .flex {
     align-items: center;
   }
   .logoLink {
     font-size: 1.75rem;
-  }
-
-  .navLinks {
-    width: 10%;
-  }
-  .navLinks li {
-    display: none;
-  }
-
-  .hamburger {
-    display: flex;
   }
 }

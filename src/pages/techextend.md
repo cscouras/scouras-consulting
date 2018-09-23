@@ -48,9 +48,11 @@ Once you have the app installed, simply [run this install](/teinstall/) script t
 Parameter | Values | Full Description
 --- | --- | ---
 First | TechExtend.CC.sc.js | Name of script
-Second | SC_SimpleTechInd, or SC_MACDTechInd | SC_SimpleTechInd handles all indicator requests except the MACD
+Second | SC_SimpleTechInd, or SC_MACDTechInd |  handles all indicator requests except the MACD
 Third | Indicator Type | SC_SMA, SC_EMA, SC_RSI for SimpleTechInd or SC_MACD for the MACDTechInd.
 Remainder | Number of Days | 	Usually a single value. In the case of MACD, supply a list of 3 values (third being the number of days in the EMA of difference between first and second)
+
+-----
 
 #### TechExtend Error Codes
 Error # | Reason | Full Description

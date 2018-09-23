@@ -1,9 +1,4 @@
-.gatsby-resp-image-link {
-  background-color: none;
-  display: none;
-}
-
-/* html {
+html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -188,7 +183,8 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em georgia, serif;
+  font: 112.5%/1.45em -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -203,7 +199,8 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -425,7 +422,7 @@ table {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  font-size: 1rem;
+  font-size: 0.75rem;
   line-height: 1.45rem;
   border-collapse: collapse;
   width: 100%;
@@ -582,14 +579,14 @@ th {
   -moz-font-feature-settings: "tnum";
   -ms-font-feature-settings: "tnum";
   -webkit-font-feature-settings: "tnum";
-  padding-left: 0.96667rem;
-  padding-right: 0.96667rem;
+  padding-left: 0.9rem;
+  padding-right: 0.9rem;
   padding-top: 0.725rem;
   padding-bottom: calc(0.725rem - 1px);
 }
 th:first-child,
 td:first-child {
-  padding-left: 0;
+  padding-left: 0.5rem;
 }
 th:last-child,
 td:last-child {
@@ -626,4 +623,4 @@ pre tt:after {
   html {
     font-size: 100%;
   }
-} */
+}

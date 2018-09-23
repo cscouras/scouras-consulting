@@ -30,21 +30,24 @@ a:visited {
    color: darkFont;
 }
 
-.gatsby-resp-image-link {
-    background-color: none;
-    display: none;
+th {
+    background: darkFont;
+    color: lightFont;
 }
 
-
-/* table {
-    margin: 0;
-    margin-bottom: 2rem;
-    padding: 0;
-    width: 60%;
-    font-size: .8rem;
-} */
-
-td:first-child {
-    width: 5%;
+tr:nth-child(even){
+    background: rgba(0,0,0,0.3);
 }
 
+@media(max-width: 600px) {
+    td {
+        border: 1px dashed black;
+        margin-right: 0rem;
+    }
+}
+@media(max-width:400px){
+    .mainContent {
+        margin-left: .25rem;
+    }
+
+}
