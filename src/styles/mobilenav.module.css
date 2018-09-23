@@ -34,7 +34,7 @@
     }
 }
 
-@media(max-height: 300px){
+@media(max-height: 400px){
     .mobilenav {
         flex-direction: row;
         justify-content: space-around;
