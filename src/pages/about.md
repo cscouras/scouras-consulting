@@ -1,5 +1,5 @@
 ---
-title: About Scouras Consulting
+title: About Us
 ---
 Scouras Consulting is a technology firm focused on providing software solutions to the financial services industry.
 

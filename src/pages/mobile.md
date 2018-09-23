@@ -1,5 +1,5 @@
 ---
-title: Scouras Consulting - ImagineMobile App
+title: ImagineMobile
 ---
 
 ## Features and Benefits
@@ -20,7 +20,7 @@ There are also videos that demonstrate how to [install](/mobileinstallation/), [
 ImagineMobile Features
 <style>
     .flexContainer {
-        /* margin: 0 auto; */
+        margin: 0 auto;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -36,6 +36,19 @@ ImagineMobile Features
         width: 50%;
     }
 
+@media(max-width:600px){
+    .flexContainer {
+        flex-direction: column;
+    }
+    .flexImage {
+        width: 60%;
+        margin-bottom: 1rem;
+    }
+
+    .flexContainer > p {
+        width: 100%;
+    }
+}
     
 </style>
 <div class="flexContainer">
