@@ -2,7 +2,7 @@
 @value scourasBlue, darkFont, lightFont from colors;
 
 .container {
-  margin-top: 50px;
+  margin-top: 80px;
   background-image: url('../images/hero.jpg');
   background-position: center;
   background-size: cover;

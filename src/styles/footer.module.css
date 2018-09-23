@@ -22,7 +22,11 @@
     font-size: .9rem;
 }
 
-.link, link:visited {
-    color: lightFont !important;
+.link, .link:visited {
+    color: lightFont;
     text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
 }

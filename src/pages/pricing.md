@@ -1,5 +1,5 @@
 ---
-title: "Scouras Consulting IFP Apps Pricing"
+title: "IFP Apps Pricing"
 ---
 Scouras Consulting is offering a growing list of apps, available at [Imagine's IFP Marketplace](http://marketplace.derivatives.com/collections/vendors?q=Scouras+Consulting "Imagine's IFP Marketplace")
 

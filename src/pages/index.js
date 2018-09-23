@@ -24,13 +24,12 @@ export default () => (
               apps.
             </p>
             <p>
-              <strong>**UPDATE - SEPTEMBER 2015** </strong> A new version of
-              ImagineMobile has been released that includes the functionality of{' '}
+              A new version of ImagineMobile has been released that includes the functionality of{' '}
               <a
                 href="https://www2.derivatives.com/users/docs/rest/mr82310.htm"
                 style={{ background: 'none', color: 'rgb(233,233,233)', textDecoration: 'underline' }}
               >
-                Imagine's new REST API changes.{' '}
+                Imagine's REST API changes.
               </a>
             </p>
 
