@@ -5,7 +5,7 @@ import styles from '../styles/nav.module.css'
 
 const ListLink = props => (
   <li className={styles.navItem}>
-    <Link to={props.to}>{props.children}</Link>
+    <Link className={styles.link} to={props.to}>{props.children}</Link>
   </li>
 )
 

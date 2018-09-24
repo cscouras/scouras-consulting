@@ -15,19 +15,19 @@
     margin: 0;
   }
   
-  .navItem > a {
+  .link {
     color: darkFont;
     background: none;
     text-decoration: none;
     transition: all 200ms ease-in-out;
   }
   
-  .navItem > a:hover {
+  .link:hover {
     color: scourasBlue;
     border-bottom: 0.25rem solid scourasBlue;
   }
   
-  .navItem:visited {
+  .link:visited {
     color: darkFont;
   }
   

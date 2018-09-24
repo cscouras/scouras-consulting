@@ -5,11 +5,10 @@ import styles from '../styles/mobilenav.module.css'
 const MobileNav = props =>{
     return (
     <div className={styles.mobilenav}>
-        <Link to="/">Home</Link>
-        <Link to="/apps/">IFP Apps</Link>
-        <Link to="/mobile/">ImagineMobile</Link>
-        <Link to="/about/">About</Link>
-        <Link to="/support/">Support</Link>
+        <Link className={styles.link} to="/apps/">IFP Apps</Link>
+        <Link className={styles.link} to="/mobile/">ImagineMobile</Link>
+        <Link className={styles.link} to="/about/">About</Link>
+        <Link className={styles.link}to="/support/">Support</Link>
     </div>
     )
 }
