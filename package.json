@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "scouras-consulting",
+  "description": "Scouras Consulting",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Chris Scouras <chris.scouras@gmail.com>",
   "dependencies": {
     "gatsby": "^2.8.6",
     "gatsby-plugin-manifest": "^2.1.1",
@@ -22,7 +22,9 @@
     "typography-theme-fairy-gates": "^0.15.11"
   },
   "keywords": [
-    "gatsby"
+    "scouras", 
+    "scouras consulting",
+    "imagine ifp"
   ],
   "license": "MIT",
   "scripts": {
@@ -36,6 +38,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/cscouras/scouras-consulting"
   }
 }
