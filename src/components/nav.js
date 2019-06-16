@@ -4,9 +4,7 @@ import MobileNav from './mobilenav'
 import styles from '../styles/nav.module.css'
 
 const ListLink = props => (
-  <li className={styles.navItem}>
-    <Link className={styles.link} to={props.to}>{props.children}</Link>
-  </li>
+    <Link className={`${styles.link} ${styles.desktopLink}`} to={props.to}>{props.children}</Link>
 )
 
 class Nav extends React.Component {
@@ -20,7 +18,7 @@ class Nav extends React.Component {
     }
   render() {
     return (
-        <ul className={styles.navLinks}>
+        <div className={styles.navLinks}>
         {this.state.show && <ListLink to="/">Home</ListLink>}
           <ListLink to="/apps/">IFP Apps</ListLink>
           <ListLink to="/mobile/">ImagineMobile</ListLink>
@@ -30,7 +28,7 @@ class Nav extends React.Component {
             <span />
           </div>
           {this.state.show && <MobileNav />}
-        </ul>
+        </div>
     )
   }
 }

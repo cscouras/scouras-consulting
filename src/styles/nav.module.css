@@ -1,5 +1,5 @@
 @value colors: '../styles/colors.module.css';
-@value scourasBlue, darkFont from colors;
+@value scourasBlue, lightFont, darkFont from colors;
 
 .navLinks {
     width: 60%;
@@ -19,12 +19,27 @@
     color: darkFont;
     background: none;
     text-decoration: none;
-    transition: all 200ms ease-in-out;
+    position: relative;
+    z-index: 1;
   }
-  
-  .link:hover {
-    color: scourasBlue;
-    border-bottom: 0.25rem solid scourasBlue;
+
+  .link::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: -5px;
+    background: scourasBlue;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 250ms ease-in-out;
+    z-index: 0;
+  }
+
+  .link:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
   }
   
   .link:visited {
@@ -72,7 +87,7 @@
     .navLinks {
       width: 10%;
     }
-    .navLinks li {
+    .navLinks .desktopLink {
       display: none;
     }
   
