@@ -19,7 +19,6 @@ class Nav extends React.Component {
   render() {
     return (
         <div className={styles.navLinks}>
-        {this.state.show && <ListLink to="/">Home</ListLink>}
           <ListLink to="/apps/">IFP Apps</ListLink>
           <ListLink to="/mobile/">ImagineMobile</ListLink>
           <ListLink to="/about/">About</ListLink>

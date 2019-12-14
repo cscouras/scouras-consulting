@@ -6,7 +6,7 @@ const Button = props => (
   <Link to={props.to}>
     <div
       className={styles.buttonStyle}
-      style={{ background: props.buttonColor }}
+      style={{ background: props.buttonColor, color: props.buttonFontColor , border: props.buttonBorder}}
     >
       {props.buttonName}
     </div>

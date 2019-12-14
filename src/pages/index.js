@@ -42,12 +42,15 @@ export default () => (
           <div className={styles.buttonContainer}>
             <Button
               buttonName="IFP Apps"
-              buttonColor="rgba(0,0,200,0.85)"
+              buttonColor="rgba(233,233,233,1)"
+              buttonFontColor="rgba(0,0,0,0.8)"
+              buttonBorder="1px solid rgba(0,0,0.0.8)"
               to="/apps/"
             />
             <Button
               buttonName="ImagineMobile"
-              buttonColor="rgba(0,200,0,0.85)"
+              buttonColor="rgba(58,58,58,1)"
+              buttonBorder="1px solid rgba(255,255,255, 1)"
               to="/mobile"
             />
           </div>

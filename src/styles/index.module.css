@@ -30,7 +30,7 @@
 
 .textHome {
     color: lightFont;
-    margin-bottom: 2rem;
+    margin: auto;
 }
 
 .buttonContainer {
@@ -38,6 +38,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    /* display: none; */
 }
 
 @media(max-width:480px){
