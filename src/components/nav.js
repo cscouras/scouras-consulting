@@ -13,6 +13,12 @@ class Nav extends React.Component {
         this.state = {show: false};
     }
 
+    handleKeyPress = (e) => {
+      if(e.keyCode === 13){
+        this.handleToggle();
+      }
+    }
+
     handleToggle = () => {
         this.setState({show: !this.state.show});
     }
@@ -23,7 +29,7 @@ class Nav extends React.Component {
           <ListLink to="/mobile/">ImagineMobile</ListLink>
           <ListLink to="/about/">About</ListLink>
           <ListLink to="/support/">Support</ListLink>
-          <div onClick={this.handleToggle} className={styles.hamburger}>
+          <div onClick={this.handleToggle} className={styles.hamburger} role="button" tabIndex="0"  onKeyDown={this.handleKeyPress}>
             <span />
           </div>
           {this.state.show && <MobileNav />}
