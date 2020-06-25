@@ -29,7 +29,7 @@ class Nav extends React.Component {
           <ListLink to="/mobile/">ImagineMobile</ListLink>
           <ListLink to="/about/">About</ListLink>
           <ListLink to="/support/">Support</ListLink>
-          <div onClick={this.handleToggle} className={styles.hamburger} role="button" tabIndex="0"  onKeyDown={this.handleKeyPress}>
+          <div onClick={this.handleToggle} className={styles.hamburger} role="button" aria-label="Toggle Navigation" tabIndex="0"  onKeyDown={this.handleKeyPress}>
             <span />
           </div>
           {this.state.show && <MobileNav />}
