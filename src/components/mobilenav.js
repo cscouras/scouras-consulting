@@ -1,14 +1,14 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import styles from '../styles/mobilenav.module.css'
+import { mobilenav, link } from '../styles/mobilenav.module.css'
 
 const MobileNav = props =>{
     return (
-    <div className={styles.mobilenav}>
-        <Link className={styles.link} to="/apps/">IFP Apps</Link>
-        <Link className={styles.link} to="/mobile/">ImagineMobile</Link>
-        <Link className={styles.link} to="/about/">About</Link>
-        <Link className={styles.link}to="/support/">Support</Link>
+    <div className={mobilenav}>
+        <Link className={link} to="/apps/">IFP Apps</Link>
+        <Link className={link} to="/mobile/">ImagineMobile</Link>
+        <Link className={link} to="/about/">About</Link>
+        <Link className={link}to="/support/">Support</Link>
     </div>
     )
 }

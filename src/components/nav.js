@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import MobileNav from './mobilenav'
-import styles from '../styles/nav.module.css'
+import { navLinks, desktopLink, link, hamburger, } from '../styles/nav.module.css'
 
 const ListLink = props => (
-    <Link className={`${styles.link} ${styles.desktopLink}`} to={props.to}>{props.children}</Link>
+    <Link className={`${link} ${desktopLink}`} to={props.to}>{props.children}</Link>
 )
 
 class Nav extends React.Component {
@@ -24,12 +24,12 @@ class Nav extends React.Component {
     }
   render() {
     return (
-        <div className={styles.navLinks}>
+        <div className={navLinks}>
           <ListLink to="/apps/">IFP Apps</ListLink>
           <ListLink to="/mobile/">ImagineMobile</ListLink>
           <ListLink to="/about/">About</ListLink>
           <ListLink to="/support/">Support</ListLink>
-          <div onClick={this.handleToggle} className={styles.hamburger} role="button" aria-label="Toggle Navigation" tabIndex="0"  onKeyDown={this.handleKeyPress}>
+          <div onClick={this.handleToggle} className={hamburger} role="button" aria-label="Toggle Navigation" tabIndex="0"  onKeyDown={this.handleKeyPress}>
             <span />
           </div>
           {this.state.show && <MobileNav />}

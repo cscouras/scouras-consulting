@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import styles from '../styles/button.module.css'
+import { buttonStyle }from '../styles/button.module.css'
 
 const Button = props => (
   <Link to={props.to}>
     <div
-      className={styles.buttonStyle}
+      className={buttonStyle}
       style={{ background: props.buttonColor, color: props.buttonFontColor , border: props.buttonBorder}}
     >
       {props.buttonName}
