@@ -1,14 +1,14 @@
 import React from 'react'
 import Button from '../components/button'
 import Layout from '../components/layout'
-import styles from '../styles/index.module.css'
+import { container, flex, content, textHome, buttonContainer } from '../styles/index.module.css'
 
-export default () => (
+const HomePage = () => (
   <Layout>
-    <div className={styles.container}>
-      <div className={styles.flex}>
-        <div className={styles.content}>
-          <div className={styles.textHome}>
+    <div className={container}>
+      <div className={flex}>
+        <div className={content}>
+          <div className={textHome}>
             <h1 style={{ display: 'inline-block', fontSize: '1.2rem', lineHeight: '1.5rem', marginBottom: '2rem'}}>
               Scouras Consulting is an Imagine partner building apps for the{' '}
               <a
@@ -39,7 +39,7 @@ export default () => (
             </p>
             
           </div>
-          <div className={styles.buttonContainer}>
+          <div className={buttonContainer}>
             <Button
               buttonName="IFP Apps"
               buttonColor="rgba(233,233,233,1)"
@@ -60,3 +60,4 @@ export default () => (
     </div>
   </Layout>
 )
+export default HomePage;
