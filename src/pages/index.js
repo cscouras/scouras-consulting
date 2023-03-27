@@ -1,5 +1,5 @@
 import React from 'react'
-import  Seo  from '../components/seo'
+import Seo from '../components/seo'
 import Button from '../components/button'
 import Layout from '../components/layout'
 import {
@@ -86,6 +86,6 @@ export default HomePage
 export const Head = () => (
   <>
     <html lang="en" />
-    <Seo />
+    <Seo title="Home" />
   </>
 )
