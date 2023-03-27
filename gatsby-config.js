@@ -1,9 +1,12 @@
 module.exports = {
   siteMetadata: {
     title: 'Scouras Consulting',
+    description:
+      'Scouras Consulting - Specializing in Imagine IFP App Development',
+    keywords:
+      'Scouras, Financial Consulting, Financial Apps, ImagineMobile, RSI Custom, MVB Integrator, TechExtend',
   },
   plugins: [
-    'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
