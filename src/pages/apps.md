@@ -1,7 +1,7 @@
 ---
 title: "IFP Apps"
 ---
-Scouras Consulting is offering a growing list of apps, available at [Imagine's IFP Marketplace](http://marketplace.derivatives.com/collections/vendors?q=Scouras+Consulting "Imagine's IFP Marketplace")
+Scouras Consulting is offering a growing list of apps, available at Imagine's IFP Marketplace
 
 ### [RSI CUSTOM, PROVIDES RELATIVE STRENGTH INDEX](/rsicustom/)
 

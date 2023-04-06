@@ -16,7 +16,7 @@ The TechExtend app enables you to:
 - RSI - Relative Strength Index
 - MACD - Moving Average Convergence/Divergence
 
-TechExtend is available at [Imagine's IFP app marketplace](http://marketplace.derivatives.com/collections/vendors?q=Scouras+Consulting)
+TechExtend is available at Imagine's IFP app marketplace
 
 The screen capture below is output form a portfolio setup utilizing the app. If a returned value is negative, please refer to the [TechExtend Error Codes](#techextend_support) section.
 

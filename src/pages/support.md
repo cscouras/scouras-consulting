@@ -1,7 +1,7 @@
 ---
 title: "IFP Apps - Support"
 ---
-Scouras Consulting is offering a growing list of apps, available at [Imagine's IFP Marketplace](http://marketplace.derivatives.com/collections/vendors?q=Scouras+Consulting "Imagine's IFP Marketplace")
+Scouras Consulting is offering a growing list of apps, available at Imagine's IFP Marketplace
 
 Scouras Consulting offers support for all of our apps [via email](mailto:consulting@scouras.com) with a policy to respond to all support requests within 24 hours.
 

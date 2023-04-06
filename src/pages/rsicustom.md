@@ -19,7 +19,7 @@ Our RSI Custom app provides the following key features:
 
 For information on our pricing and our support policies, please visit our [pricing](/pricing/) and [support](/support/) pages.
 
-Once the RSI Custom app is obtained from [Imagine's IFP Marketplace](http://marketplace.derivatives.com/collections/vendors?q=Scouras+Consulting "Imagine's IFP Marketplace"), set up your Custom Columns as shown below. If you're using a 14 day RSI, there is no need for parameters:
+Once the RSI Custom app is obtained from Imagine's IFP Marketplace, set up your Custom Columns as shown below. If you're using a 14 day RSI, there is no need for parameters:
 
 ![RSI 14 Day Configuration](../images/rsi_14.png)
 
