@@ -20,7 +20,7 @@ Our MVB Integrator app provides the following key features:
 
 For information on our pricing and our support policies, please visit our [pricing](/pricing) and our [support](/support) pages.
 
-Once the MVB Integrator app is obtained form [Imagine's IFP Marketplace](http://marketplace.derivatives.com/collections/vendors?q=Scouras+Consulting), you can run the generator app (sc.MVB.gen.js) which is found in your 'MyApp' section of the App Explorer.
+Once the MVB Integrator app is obtained form Imagine's IFP Marketplace, you can run the generator app (sc.MVB.gen.js) which is found in your 'MyApp' section of the App Explorer.
 
 ![MVB Integrator - My App ](../images/mvb_myapp.png)
 

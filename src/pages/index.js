@@ -24,17 +24,7 @@ const HomePage = () => (
                 marginBottom: '2rem',
               }}
             >
-              Scouras Consulting is an Imagine partner building apps for the{' '}
-              <a
-                href="http://marketplace.derivatives.com/collections/vendors?q=Scouras+Consulting"
-                style={{
-                  background: 'none',
-                  color: 'rgb(233,233,233)',
-                  textDecoration: 'underline',
-                }}
-              >
-                Imagine Financial Platform (IFP)
-              </a>
+              Scouras Consulting is an Imagine partner building apps for the Imagine Financial Platform (IFP)
             </h1>
             <p>
               In addition to outlining the benefits and features of our apps, we
@@ -43,17 +33,7 @@ const HomePage = () => (
             </p>
             <p>
               A new version of ImagineMobile has been released that includes the
-              functionality of{' '}
-              <a
-                href="https://www2.derivatives.com/users/docs/rest/mr82310.htm"
-                style={{
-                  background: 'none',
-                  color: 'rgb(233,233,233)',
-                  textDecoration: 'underline',
-                }}
-              >
-                Imagine's REST API changes.
-              </a>
+              functionality of Imagine's REST API changes.
             </p>
 
             <p>
