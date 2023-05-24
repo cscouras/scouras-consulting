@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Chris Scouras <chris.scouras@gmail.com>",
   "dependencies": {
-    "gatsby": "^5.8.0",
+    "gatsby": "^5.10.0",
     "gatsby-plugin-manifest": "^5.8.0",
     "gatsby-plugin-offline": "^6.8.0",
     "gatsby-plugin-sharp": "^5.8.0",
